@@ -2420,6 +2420,7 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 			width: 15em;
 			height: 15em;
+			box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.2);
 		}
 
 /* List */
