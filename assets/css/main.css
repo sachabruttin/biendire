@@ -302,6 +302,11 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.temoignage {
+		text-align: left;
+		padding: 1em;
+	}
+
 	input, select, textarea {
 		color:  #060E33; /*#ffffff; */
 	}

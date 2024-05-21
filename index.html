@@ -13,6 +13,8 @@
 	<meta name="description"
 		content="Bien dire propose des consultations en astrologie. En ligne ou en présentiel dans la région de Nyon (Suisse), j'analyse votre carte natale afin d'en faire émerger vos besoins, vos potentiels, vos défis de vie et vos compétences particulières." />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/slick/slick.css" />
+	<link rel="stylesheet" href="assets/slick/slick-theme.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
@@ -38,7 +40,7 @@
 			<ul>
 				<li><a href="#intro" class="active">Introduction</a></li>
 				<li><a href="#prestations">Prestations</a></li>
-				<li><a href="#rdv">Rendez-vous</a></li>
+				<li><a href="calendar.html">Rendez-vous</a></li>
 				<li><a href="#temoignages">Témoignages</a></li>
 				<li><a href="#about">A propos de moi</a></li>
 			</ul>
@@ -51,9 +53,7 @@
 			<section id="intro" class="main">
 				<!-- <div class="spotlight"> -->
 				<div class="content">
-					<!-- <header class="major">
-											<h2>Ipsum sed adipiscing</h2>
-										</header> -->
+
 					<p class="align-left"><span class="image right"><img src="images/20240414_131050.jpg"
 								alt="" /></span>Le jour de notre naissance, nous recevons une carte, la carte de notre
 						ciel natal. Les placements des planètes nous renseignent sur nos besoins, nos potentiels, nos
@@ -70,9 +70,7 @@
 					<p>J'ai passé 40 ans dans la peau du poisson qui grimpe à l'arbre, je suis arrivée très haut et je
 						me suis épuisée. Laissez-moi vous aider à découvrir votre génie intérieur pour vous permettre
 						d'être plus aligné. Descendez de l'arbre, osez briller!</p>
-					<!-- <ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
-										</ul> -->
+
 				</div>
 				<!-- </div> -->
 			</section>
@@ -102,11 +100,6 @@
 							appuyant sur votre carte natale. Le héron, symbole de renaissance, nous accompagnera dans
 							l'étude des planètes qui guideront votre émancipation et votre transformation.</p>
 						<p>2h d'échange en présentiel ou par visio, avec enregistrement de la séance<br />160 francs</p>
-						<p><!-- Début de widget de lien Calendly -->
-							<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-							<a class="icon alt fa-calendar" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/biendire/genie-du-heron'});return false;"></a>
-							<!-- Fin de widget de lien Calendly --></p>
 					</li>
 					<li>
 						<span class="image avatar"><img src="images/20240414_131141.jpg" alt="" /></span>
@@ -118,34 +111,10 @@
 							francs</p>
 					</li>
 				</ul>
-				<!-- <footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer> -->
-			</section>
-
-			<!-- RDV Section -->
-			<section id="rdv" class="main special">
-				<header class="major">
-					<h2>Prendre Rendez-vous</h2>
-				</header>
-				<p>Prise de rendez-vous en ligne (formulaire avec nom, prénom, date, lieu et heure de naissance),
-					paiement par Stripe ou Twint</p>
-				<footer class="major">
+				<footer class="major" id="rdv">
 					<ul class="actions special">
-						<li><a href="calendar.html" class="button primary">Voir les disponibilités</a></li>
-						<!-- <li> -->
-							<!-- Début de widget de lien Calendly -->
-							<!-- <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-							<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"
-								async></script>
-							<a href="" class="button primary"
-								onclick="Calendly.initPopupWidget({url: 'https://calendly.com/biendire'});return false;">Planifier
-								du temps avec moi</a> -->
-							<!-- Fin de widget de lien Calendly -->
-						<!-- </li> -->
-
+						<li><a href="calendar.html" class="button primary">Prendre rendez-vous</a></li>
+					</ul>
 				</footer>
 			</section>
 
@@ -153,43 +122,29 @@
 			<section id="temoignages" class="main special">
 				<header class="major">
 					<h2>Témoignages</h2>
-					<p>lorem ipsum.....</p>
 				</header>
-				<!-- <ul class="statistics">
-									<li class="style1">
-										<span class="icon solid fa-code-branch"></span>
-										<strong>5,120</strong> 
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices dui non nisl facilisis faucibus. Donec aliquam odio non purus placerat rhoncus nec sit amet tortor. Fusce scelerisque ex placerat nunc maximus auctor. Cras ornare aliquam metus non venenatis. Mauris lacinia commodo imperdiet. Cras sem ante, consectetur et tortor id, dapibus euismod est. Integer malesuada, lectus nec sollicitudin pretium, neque nunc luctus diam, eget consectetur purus tellus sit amet felis. Donec accumsan vehicula nisi vel semper. Nunc in metus augue. Integer aliquam metus quis est euismod, ac condimentum justo dignissim. Proin neque neque, tincidunt quis vulputate ac, tempus non dolor. Sed vel nisl vel tortor porttitor placerat. Pellentesque mattis nec massa fermentum iaculis. Vestibulum tincidunt leo at nibh aliquam pulvinar. Curabitur gravida auctor arcu sed dignissim. Nam viverra, magna eget aliquet posuere, nibh metus venenatis arcu, eu dignissim massa quam in orci./p>
-									</li>
-									<li class="style2">
-										<span class="icon fa-folder-open"></span>
-										<strong>8,192</strong> Magna
-									</li>
-									<li class="style3">
-										<span class="icon solid fa-signal"></span>
-										<strong>2,048</strong> Tempus
-									</li>
-									<li class="style4">
-										<span class="icon solid fa-laptop"></span>
-										<strong>4,096</strong> Aliquam
-									</li>
-									<li class="style5">
-										<span class="icon fa-gem"></span>
-										<strong>1,024</strong> Nullam
-									</li>
-								</ul> -->
-				<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus
-					hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus.
-					Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed
-					eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur
-					vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis
-					porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam
-					porta. Cras eu ornare dui curabitur lacinia.</p>
-				<footer class="major">
-					<ul class="actions special">
-						<li><a href="generic.html" class="button">Learn More</a></li>
-					</ul>
-				</footer>
+				<div class="carousel">
+					<div class="temoignage">
+						<p>La lecture de ma carte du ciel par Bénédicte m'a apporté plusieurs éléments de compréhension
+							sur ma personnalité, mon fonctionnement et ma situation actuelle. Sa clairvoyance et sa
+							bienveillance ont été une aide précieuse pour m'amener à prendre les décisions les plus
+							justes pour moi. Merci Bénédicte pour ton soutien et ta joie de vivre!</p>
+						<p>Muriel</p>
+					</div>
+					<div class="temoignage">
+						<p>Belle première expérience en astrologie. Bénédicte a su trouver les bons mots pour vulgariser
+							mon thème astral. Merci !</p>
+						<p>Marlène</p>
+					</div>
+					<div class="temoignage">
+						<p>Merci pour cette séance d'astrologie. Tu as su mettre des mots sur des "impressions", des
+							ressentis; mis en lumière des fonctionnements, tu m'as suggéré des pistes... J'ai apprécié
+							ta bienveillance et ton professionnalisme."</p>
+						<p>Isabelle</p>
+					</div>
+				</div>
+
+
 			</section>
 
 			<!-- A propos Section -->
@@ -237,7 +192,9 @@
 
 		<!-- Footer -->
 		<footer id="footer">
+			<section>
 
+			</section>
 			<section>
 				<h2>Contacts</h2>
 				<dl class="alt">
@@ -270,6 +227,26 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/slick/slick.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.carousel').slick({
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 7500,
+				responsive: [
+					{
+						breakpoint: 600,
+						settings: {
+							slidesToShow: 1,
+						}
+					}
+				]
+			});
+		});
+	</script>
 
 </body>
 
