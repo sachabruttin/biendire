@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /*.txt$
 
-Sitemap: https://www.bien-dire.ch/sitemap.xml
+Sitemap: https://www.bien-dire.ch/sitemap.txt
