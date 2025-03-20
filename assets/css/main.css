@@ -2465,6 +2465,28 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
+	ul.check {
+		margin: 0;
+		text-align: left;
+		width: 100%;
+		list-style: none;
+	}
+
+	ul.check li {
+		padding: 0px;
+		margin: 0px;
+		width: 100%;
+	}
+
+	ul.check li::before {
+		content: '✔️';
+	}
+
+	ul.check li:nth-child(n) {
+		padding: 0;
+		margin: 0;
+	}
+
 	dl {
 		margin: 0 0 2em 0;
 	}
@@ -2828,14 +2850,16 @@ input, select, textarea {
 	}
 
 		.features li {
-			width: calc(33.33333% - 2em);
+			/* width: calc(33.33333% - 2em); */
+			width: calc(50% - 2em);
 			margin-left: 2em;
 			margin-top: 3em;
 			padding: 0;
 		}
 
-			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
-				margin-top: 0;
+			/* .features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) { */
+			.features li:nth-child(1), .features li:nth-child(2){
+			margin-top: 0;
 			}
 
 			.features li > :last-child {
@@ -2851,7 +2875,6 @@ input, select, textarea {
 				.features li:nth-child(3) {
 					margin-top: 3em;
 				}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2866,6 +2889,7 @@ input, select, textarea {
 					margin-left: 0;
 					margin-top: 2em;
 				}
+
 
 					.features li:nth-child(2), .features li:nth-child(3) {
 						margin-top: 2em;
